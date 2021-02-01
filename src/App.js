@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+import Header from './components/header/header';
+import Projetos from './pages/projetos/projetos';
+import QeumSou from './pages/quemsou/quemsou';
+import Conhecimentos from './pages/conhecimentos/conhecimentos'
+import Initial from './pages/initial/initial'
 import './App.css';
+import { Link, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Link to="/">
+      <h1>Elton Ortiz</h1>
+      </Link>
+      <Header></Header>
+      <Switch>
+        <Route path="/projetos">
+          <Projetos></Projetos>
+        </Route>
+        <Route path="/quemsou">
+          <QeumSou></QeumSou>
+        </Route>
+        <Route path="/conhecimentos">
+          <Conhecimentos></Conhecimentos>
+        </Route>
+        <Route path="/">
+          <Initial></Initial>
+        </Route>
+      </Switch>
     </div>
   );
 }
