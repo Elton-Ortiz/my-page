@@ -1,0 +1,31 @@
+.header ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0 0 0 0;
+    font-size: 20px;
+    background-color: rgba(195, 193, 65, 0.794);
+    position: fixed;
+    width: 100vw;
+    height: 80px;
+    bottom: 0;
+    right: 0;
+    
+}
+.header li {
+    flex: 1 1 0px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border:solid #ccc 1px;
+}
+
+.header nav ul li a{
+    font-family: 'Gochi Hand';
+    font-size: 23px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}

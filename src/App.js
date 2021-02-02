@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Link to="/">
-      <h1>Elton Ortiz</h1>
+      <h1 className="title">ELTON ORTIZ</h1>
       </Link>
       <Header></Header>
       <Switch>

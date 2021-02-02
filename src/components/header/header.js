@@ -1,8 +1,11 @@
-const { Link } = require("react-router-dom");
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import './header.css'
 
 function Header() {
+ 
     return (
-      <div>
+      <div className="header">
         <nav>
           <ul>
             <li>
@@ -12,7 +15,7 @@ function Header() {
               <Link to="/quemsou">Quem Sou</Link>
             </li>
             <li>
-              <Link to="/conhecimentos">Conhecimentos</Link>
+              <Link to="/conhecimentos">Domínios</Link>
             </li>
           </ul>
         </nav>

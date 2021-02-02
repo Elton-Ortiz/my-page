@@ -1,0 +1,13 @@
+.title {
+    font-family:'Gochi Hand';
+    font-size: 45px;
+    text-align: center;
+    color: rgba(195, 193, 65, 0.794);;
+    text-shadow: 0 0 2px;
+    transition: all .2s ease-in-out;
+    padding: 50px 0 0 0;
+    margin: 0;
+}
+.title:hover {
+    text-shadow: 0 0 5px;
+}
