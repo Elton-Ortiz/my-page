@@ -1,0 +1,34 @@
+.initial {
+    margin: 50px 0 0 0;
+}
+.initial section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 100px 0;
+}
+.initial span {
+    display:block;
+}
+.initial p {
+    display: inline;
+    font-size: 18px;
+}
+.class {
+    color:#ce9d6a; 
+}
+.attribute {
+    color: #8CDCFE;
+}
+.value{
+    color: #cf7747;
+}
+.initial .whitespancing {
+    padding: 0 0 0 35px;
+}
+
+.initial .card{
+    width: 80%;
+    height: 50vw;
+    margin: 10px 0 0 0;
+}
