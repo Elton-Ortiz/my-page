@@ -8,7 +8,7 @@ import { Link, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <Link to="/">
       <h1 className="title">ELTON ORTIZ</h1>
       </Link>
