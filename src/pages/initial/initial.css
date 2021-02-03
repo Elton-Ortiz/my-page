@@ -1,5 +1,5 @@
 .initial {
-    margin: 50px 0 0 0;
+    margin: 0 0 0 0;
 }
 .initial section {
     display:flex;
@@ -12,23 +12,57 @@
 }
 .initial p {
     display: inline;
-    font-size: 18px;
+    font-size: 19px;
+    line-height: 22px;
 }
-.class {
+
+.initial .card{
+    width: 80%;
+    height: 400px;
+    margin: 10px 0 0 0;
+}
+.initial .first-project {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.initial .first-project h2 {
+    margin-top: 0;
+}
+
+.initial .first-project .content {
+    /* border: solid rgba(195, 193, 65, 0.794) 1px; */
+    background-image: url('../../assets/img/reactLogo.png');
+    background-position: 80px -35px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+.initial .first-project .content .mask {
+    height: 100%;
+    padding: 0;
+    background: linear-gradient(90deg, rgba(34,34,34,1) 45%, rgba(34,34,34,0) 100%, rgba(34,34,34,0) 100%);
+}
+.initial .class {
     color:#ce9d6a; 
 }
-.attribute {
+.initial .attribute {
     color: #8CDCFE;
 }
-.value{
+.initial .value{
     color: #cf7747;
 }
 .initial .whitespancing {
     padding: 0 0 0 35px;
 }
 
-.initial .card{
-    width: 80%;
-    height: 50vw;
-    margin: 10px 0 0 0;
-}
+
+
+
+
+
+
+
+
+
+

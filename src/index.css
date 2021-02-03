@@ -21,6 +21,9 @@ button{
   background-image: none;
   border: none;
 }
+a{
+  color: inherit;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
