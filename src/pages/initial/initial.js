@@ -27,7 +27,9 @@ function Initial() {
         <ProjectCard 
         title={projects.siteReact.name}
         discription={projects.siteReact.discription} 
-        imgPath={projects.siteReact.backgrundImage}></ProjectCard>
+        imgPath={projects.siteReact.backgrundImage}>
+
+        </ProjectCard>
         <div className="card">
           <div>
           <span>
@@ -70,7 +72,8 @@ function Initial() {
         <ProjectCard 
         title={projects.form.name}
         discription={projects.form.discription} 
-        imgPath={projects.form.backgrundImage}></ProjectCard>
+        imgPath={projects.form.backgrundImage}>
+        </ProjectCard>
       </section>
     </main>
   );

@@ -1,4 +1,6 @@
 .initial {
+    display: flex;
+    justify-content: center;
     margin: 0 0 0 0;
 }
 .initial section {
@@ -33,7 +35,21 @@
 }
 
 
+@media(min-width:900px){
+    .initial section{
+        flex-direction: row;
+        max-width: 700px;
+    }
+    .initial section :nth-child(0),
+    .initial section :nth-child(2){
+        height: auto;
+    }
 
+    .initial section :nth-child(1){
+
+        order: 1;
+    }
+}
 
 
 

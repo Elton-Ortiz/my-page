@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0 0 0 0;
     font-size: 20px;
-    background-color: rgba(195, 193, 65, 0.794);
+    background-color: rgba(195, 193, 65, .95);
     position: fixed;
     width: 100vw;
     height: 80px;
@@ -31,17 +31,14 @@
 }
 
 @media(min-width: 600px){
+    .header{
+    }
     .header ul {
-        display: flex;
-        flex-direction: row;
+        width: 100vw;
         justify-content:center;
-        margin: 0;
-        padding: 0 0 0 0;
-        width: auto;
         height: 50px;
-        font-size: 20px;
-        background-color: transparent;
-        position: initial;   
+        background-color: #222;
+        top:100px;
     }
     .header li {
         max-width: 200px;
@@ -52,3 +49,5 @@
         text-decoration: underline 2px;
          }
 }
+
+
