@@ -1,0 +1,27 @@
+.initial .card{
+    width: 80%;
+    height: 400px;
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.initial .project {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.initial .project h2 {
+    margin-top: 0;
+}
+.initial .project .content {
+    background-position: 160px 0px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+.initial .project .content .mask {
+    height: 100%;
+    padding: 0;
+    background: linear-gradient(90deg, rgba(34,34,34,1) 45%, rgba(34,34,34,0) 100%, rgba(34,34,34,0) 100%);
+}

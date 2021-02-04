@@ -1,7 +1,22 @@
 import './initial.css'
+import ProjectCard from '../../components/projectCard/projectCard'
+import ImgSiteReact from '../../assets/img/reactLogo.png'
+import ImgForm from '../../assets/img/form.png'
 
 function Initial() {
-
+  
+  const projects = {
+    siteReact:{
+      name:"Site React",
+      discription:"Uma copia dosite do React,js, feito com React.",
+      backgrundImage:ImgSiteReact
+    },
+    form:{
+      name:"Form",
+      discription:"Formulario de cadastro, feito com React.",
+      backgrundImage:ImgForm
+    }
+  }
 
   const leftCurlyBrace = '{';
   const rightCurlyBrace = '}';
@@ -9,17 +24,12 @@ function Initial() {
   return (
     <main className="initial">
       <section>
+        <ProjectCard 
+        title={projects.siteReact.name}
+        discription={projects.siteReact.discription} 
+        imgPath={projects.siteReact.backgrundImage}></ProjectCard>
         <div className="card">
-          <div className="first-project">
-            <a className="content" href="#">
-              <div className="mask">
-                <h2>Site React</h2>
-                <p>Uma copia do site do React.js, feito com React </p>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="card">
+          <div>
           <span>
             <p className="class">.atualmente </p>
             <p>{leftCurlyBrace}</p>
@@ -55,9 +65,12 @@ function Initial() {
             <p> ;</p>
           </span>
           <p>{rightCurlyBrace}</p>
+          </div>
         </div>
-        <div className="card">Projeto 2</div>
-        <div className="card">Projeto 2</div>
+        <ProjectCard 
+        title={projects.form.name}
+        discription={projects.form.discription} 
+        imgPath={projects.form.backgrundImage}></ProjectCard>
       </section>
     </main>
   );
