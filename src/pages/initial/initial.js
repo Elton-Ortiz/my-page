@@ -9,12 +9,14 @@ function Initial() {
     siteReact:{
       name:"Site React",
       discription:"Uma copia dosite do React,js, feito com React.",
-      backgrundImage:ImgSiteReact
+      backgrundImage:ImgSiteReact,
+      site:"https://copiasitereactjs.netlify.app/"
     },
     form:{
       name:"Form",
       discription:"Formulario de cadastro, feito com React.",
-      backgrundImage:ImgForm
+      backgrundImage:ImgForm,
+      site:"https://siteform.netlify.app/"
     }
   }
 
@@ -27,7 +29,8 @@ function Initial() {
         <ProjectCard 
         title={projects.siteReact.name}
         discription={projects.siteReact.discription} 
-        imgPath={projects.siteReact.backgrundImage}>
+        imgPath={projects.siteReact.backgrundImage}
+        site={projects.siteReact.site}>
 
         </ProjectCard>
         <div className="card">
@@ -72,7 +75,8 @@ function Initial() {
         <ProjectCard 
         title={projects.form.name}
         discription={projects.form.discription} 
-        imgPath={projects.form.backgrundImage}>
+        imgPath={projects.form.backgrundImage}
+        site={projects.form.site}>
         </ProjectCard>
       </section>
     </main>

@@ -1,25 +1,26 @@
-.header ul {
+header  {
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    right: 0; 
+}
+header ul {
     display: flex;
     flex-direction: row;
     margin: 0;
     padding: 0 0 0 0;
     font-size: 20px;
     background-color: rgba(195, 193, 65, .95);
-    position: fixed;
-    width: 100vw;
     height: 80px;
-    bottom: 0;
-    right: 0;
-    
 }
-.header li {
+header li {
     flex: 1 1 0px;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     border:solid #ccc 1px;
 }
 
-.header nav ul li a{
+header nav ul li a{
     font-family: 'Gochi Hand';
     font-size: 23px;
     display: flex;
@@ -31,23 +32,28 @@
 }
 
 @media(min-width: 600px){
-    .header{
+    header  {
+        position: initial;
+        width: auto;
+        bottom: 0;
+        right: 0vw; 
     }
-    .header ul {
-        width: 100vw;
-        justify-content:center;
-        height: 50px;
-        background-color: #222;
-        top:100px;
+    header ul {
+        max-width: 700px;
+        margin: auto;
+        justify-content:space-between;
+        background-color:transparent;
     }
-    .header li {
-        max-width: 200px;
+    header li {
         border: none;
     }
     
-    .header nav ul li a:hover{
+    header nav ul li a:hover{
         text-decoration: underline 2px;
          }
+         header nav ul li a{
+            font-size: 30px;
+        }
 }
 
 

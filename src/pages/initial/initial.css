@@ -17,10 +17,6 @@
     font-size: 19px;
     line-height: 22px;
 }
-
-
-
-
 .initial .class {
     color:#ce9d6a; 
 }
@@ -38,16 +34,30 @@
 @media(min-width:900px){
     .initial section{
         flex-direction: row;
-        max-width: 700px;
+      
     }
-    .initial section :nth-child(0),
-    .initial section :nth-child(2){
-        height: auto;
+    .initial section .card{
+        border: solid rgba(195, 193, 65, .95)  1px;
+        margin: 200px 10px;
+        padding: 0;
     }
-
-    .initial section :nth-child(1){
-
-        order: 1;
+    .initial .whitespancing{
+        width:100% ;
+        padding: 0 0 0 15px;
+    }
+    .initial section .card:nth-child(2){
+        padding: 0 0 0 10px;
+        border:none;
+        order: -1;
+        font-size: 20px;
+    }
+}
+@media(min-width:1150px){
+    .initial section{
+        padding: 150px 0;
+    }
+    .initial section .card{
+        margin: 0 30px;
     }
 }
 

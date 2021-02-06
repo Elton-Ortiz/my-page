@@ -1,5 +1,5 @@
 .container {
-    max-width: 900px;
+    max-width: 1200px;
     margin: auto;
 }
 .title {
@@ -17,4 +17,15 @@
 }
 .title:hover {
     text-shadow: 0 0 5px;
+}
+@media(min-width:600px){
+    .title{
+        background-color: transparent;
+    }
+}
+@media(min-width:1150px){
+    .title{
+        margin: 50px 0 20px 0 ;
+        font-size: 70px;
+    }
 }

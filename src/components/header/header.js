@@ -1,11 +1,10 @@
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './header.css'
 
 function Header() {
  
     return (
-      <div className="header">
+      <header>
         <nav>
           <ul>
             <li>
@@ -19,7 +18,7 @@ function Header() {
             </li>
           </ul>
         </nav>
-      </div>
+      </header>
     );
   }
   
