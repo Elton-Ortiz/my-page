@@ -8,7 +8,7 @@ function Initial() {
   const projects = {
     siteReact:{
       name:"Site React",
-      discription:"Uma copia dosite do React,js, feito com React.",
+      discription:"Uma copia do site do React,js, feito com React.",
       backgrundImage:ImgSiteReact,
       site:"https://copiasitereactjs.netlify.app/"
     },
@@ -42,31 +42,31 @@ function Initial() {
           <span className="whitespancing">
             <p className="attribute">lendo</p>
             <p>: </p>
-            <p className="value">css grid layout</p>
+            <p className="value">A Batalha do Apocalipse - Da Queda dos Anjos ao Crepúsculo do Mundo</p>
             <p> ;</p>
           </span>
-          <span className="whitespancing">
+          {/* <span className="whitespancing">
             <p className="attribute">assistindo</p>
             <p>: </p>
             <p className="value">vidrados</p>
             <p> ;</p>
-          </span>
+          </span> */}
           <span className="whitespancing">
             <p className="attribute">jogando</p>
             <p>: </p>
-            <p className="value">oad</p>
+            <p className="value">OAD</p>
             <p> ;</p>
           </span>
           <span className="whitespancing">
             <p className="attribute">estudando</p>
             <p>: </p>
-            <p className="value">svg</p>
+            <p className="value">Java</p>
             <p> ;</p>
           </span>
           <span className="whitespancing">
             <p className="attribute">praticando</p>
             <p>: </p>
-            <p className="value">corrida 5km</p>
+            <p className="value">Violão</p>
             <p> ;</p>
           </span>
           <p>{rightCurlyBrace}</p>

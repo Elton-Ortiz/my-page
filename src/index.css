@@ -15,7 +15,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #222;
   color: #ccc;
-  min-height: 100vh;
 }
 button{
   background-color: transparent;

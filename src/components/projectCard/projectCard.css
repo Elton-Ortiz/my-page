@@ -20,16 +20,8 @@
     background-size: 150px;
     background-repeat: no-repeat;
 }
-.initial .project .content .mask {
-    height: 100%;
-    padding: 0;
-    background-image: linear-gradient(90deg, rgba(34,34,34,1) 45%, rgba(34,34,34,0) 100%, rgba(34,34,34,0) 100%);
-}
-@media(min-width:600px){
-    .initial .project .content .mask {
-        background-image: none;
-    }
-}
+
+
 @media(min-width:900px){
     .initial .card {
         height:auto;
@@ -39,10 +31,18 @@
         padding: 20px 0;
 
     }
+    .initial section .card{
+        border: solid rgba(195, 193, 65, .95)  1px;
+        margin: 200px 10px;
+        padding: 0;
+    }
 }
 @media(min-width:1150px){
     .initial .card {
         padding: 30px;
         height: auto;
+    }
+    .initial section .card{
+        margin: 0 30px;
     }
 }

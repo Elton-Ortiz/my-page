@@ -36,11 +36,7 @@
         flex-direction: row;
       
     }
-    .initial section .card{
-        border: solid rgba(195, 193, 65, .95)  1px;
-        margin: 200px 10px;
-        padding: 0;
-    }
+
     .initial .whitespancing{
         width:100% ;
         padding: 0 0 0 15px;
@@ -56,9 +52,7 @@
     .initial section{
         padding: 150px 0;
     }
-    .initial section .card{
-        margin: 0 30px;
-    }
+   
 }
 
 
