@@ -42,7 +42,7 @@ function Initial() {
           <span className="whitespancing">
             <p className="attribute">lendo</p>
             <p>: </p>
-            <p className="value">A Batalha do Apocalipse - Da Queda dos Anjos ao Crepúsculo do Mundo</p>
+            <p className="value">A Batalha do Apocalipse <br/> - Da Queda dos Anjos ao Crepúsculo do Mundo</p>
             <p> ;</p>
           </span>
           {/* <span className="whitespancing">

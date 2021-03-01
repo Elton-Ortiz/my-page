@@ -1,4 +1,4 @@
-.initial .card{
+section .card{
     width: 80%;
     height: 400px;
     margin: 10px 0 0 0;
@@ -6,16 +6,16 @@
     flex-direction: column;
     justify-content: center;
 }
-.initial .project {
+section .project {
     height: 100%;
     display: flex;
     align-items: center;
     text-align: center;
 }
-.initial .project h2 {
+section .project h2 {
     margin-top: 0;
 }
-.initial .project .content {
+section .project .content {
     background-position: 160px 0px;
     background-size: 150px;
     background-repeat: no-repeat;
@@ -23,26 +23,28 @@
 
 
 @media(min-width:900px){
-    .initial .card {
+    section .card {
+        width: auto;
         height:auto;
         border-radius: 15px;
     }
-    .initial .card .project{
+    section .card .project{
+        justify-content: center;
         padding: 20px 0;
 
     }
-    .initial section .card{
+     section .card{
         border: solid rgba(195, 193, 65, .95)  1px;
-        margin: 200px 10px;
+        margin: 0px 10px;
         padding: 0;
     }
 }
 @media(min-width:1150px){
-    .initial .card {
+    section .card {
         padding: 30px;
         height: auto;
     }
-    .initial section .card{
+    section section .card{
         margin: 0 30px;
     }
 }
