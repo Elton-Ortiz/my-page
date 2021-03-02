@@ -1,29 +1,13 @@
 import "./quemsou.css"
 
 function QeumSou() {
-  function idade(ano_aniversario, mes_aniversario, dia_aniversario) {
-    var d = new Date,
-        ano_atual = d.getFullYear(),
-        mes_atual = d.getMonth() + 1,
-        dia_atual = d.getDate(),
-
-        ano_aniversario = +ano_aniversario,
-        mes_aniversario = +mes_aniversario,
-        dia_aniversario = +dia_aniversario,
-
-        quantos_anos = ano_atual - ano_aniversario;
-
-    if (mes_atual < mes_aniversario || mes_atual == mes_aniversario && dia_atual < dia_aniversario) {
-        quantos_anos--;
-    }
-
-    return quantos_anos < 0 ? 0 : quantos_anos;
-}
-  const yearsOld = idade(1990,1,5);
+  const date = new Date();
+  
+  const now = date.getFullYear();
     return (
       <main className="quemsou">
         
-       <p>Me chamo Elton Ortiz ou somente Ton, tenho {yearsOld} anos, sou técnico de iluminação, mas atualmente estou focado em iniciar uma carreira como programador.
+       <p>Me chamo Elton Ortiz ou somente Ton, tenho {now-1990} anos, sou técnico de iluminação, mas atualmente estou focado em iniciar uma carreira como programador.
        </p><p>
 Já trabalho como técnico de iluminação a muitos anos, nesse tempo já participei de shows de diversos artistas, e também trabalhei com teatro e exposições, para quem não conhece o mundo da iluminação, ele não parece tão vasto, mas a verdade e que ele é sim, temos muitas coisas envolvidas nessa área, como fixtures, consoles, temperaturas de luz, racks, sistemas dmx, entre outras coisas.
 </p><p>

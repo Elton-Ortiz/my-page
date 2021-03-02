@@ -28,8 +28,7 @@ function projetos() {
   }
 }
 
-const leftCurlyBrace = '{';
-const rightCurlyBrace = '}';
+
 
     return (
       <main className="projects">
