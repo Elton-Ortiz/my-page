@@ -1,0 +1,26 @@
+.conhecimentos{
+    padding: 40px 40px 150px 40px;
+    text-align: center;
+    display: grid;
+}
+.conhecimentos h4{
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+}
+.conhecimentos span{
+    display:inline-block;
+    background-color:#777;
+    border-radius:25%;
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}
+.conhecimentos .value{
+    background-color: rgba(195, 193, 65, .95);;
+}
+@media(min-width:800px){
+    .conhecimentos{
+        padding: 80px 180px;
+        grid-template-columns: 1fr 1fr;
+    }
+}

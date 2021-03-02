@@ -55,54 +55,7 @@ const rightCurlyBrace = '}';
         site={projects.RockPaperScissors.site}>
         </ProjectCard>
 
-        <ProjectCard 
-        title={projects.form.name}
-        discription={projects.form.discription} 
-        imgPath={projects.form.backgrundImage}
-        site={projects.form.site}>
-        </ProjectCard>
-
-        <ProjectCard 
-        title={projects.form.name}
-        discription={projects.form.discription} 
-        imgPath={projects.form.backgrundImage}
-        site={projects.form.site}>
-        </ProjectCard>
-
-        <ProjectCard 
-        title={projects.form.name}
-        discription={projects.form.discription} 
-        imgPath={projects.form.backgrundImage}
-        site={projects.form.site}>
-        </ProjectCard>
-
-        <ProjectCard 
-        title={projects.form.name}
-        discription={projects.form.discription} 
-        imgPath={projects.form.backgrundImage}
-        site={projects.form.site}>
-        </ProjectCard>
-
-        <ProjectCard 
-        title={projects.form.name}
-        discription={projects.form.discription} 
-        imgPath={projects.form.backgrundImage}
-        site={projects.form.site}>
-        </ProjectCard>
-
-        <ProjectCard 
-        title={projects.form.name}
-        discription={projects.form.discription} 
-        imgPath={projects.form.backgrundImage}
-        site={projects.form.site}>
-        </ProjectCard>
-
-        <ProjectCard 
-        title={projects.form.name}
-        discription={projects.form.discription} 
-        imgPath={projects.form.backgrundImage}
-        site={projects.form.site}>
-        </ProjectCard>
+       
       </section>
     </main>
     );

@@ -1,0 +1,12 @@
+.quemsou{
+    font-size: 19px;
+    line-height: 24px;
+    padding: 0 30px;
+    margin: 50px 0 150px 0;
+}
+@media(min-width:600px){
+    .quemsou{
+       margin-bottom: 0;
+       padding: 0 200px;
+    }
+}
