@@ -24,7 +24,7 @@ function projetos() {
     name:"Rock Paper Scissors",
     discription:"Jogo Pedra Papel Tesoura feito em Java",
     backgrundImage:ImgRockPaperScissors,
-    site:"https://siteform.netlify.app/"
+    site:"https://github.com/Elton-Ortiz/PedraPapelTesoura"
   }
 }
 
